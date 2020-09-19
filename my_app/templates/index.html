@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hack Book</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="../static/main.css">
+  <script src=""../static/script.js"></script>
+</head>
+<body>
+  <h1 id="title">{{name}}</h1>
+  <img src="https://ibb.co/6m9zZPF">
+
+  <p class="facts">Welcome to my hackbook portfolio</p>
+
+  {% for fact in facts %}
+    <p class="facts">{{facts}}: {{facts{facts}}}</p>
+  {% endfor %}
+
+  <p class="facts">Birthday: May 18, 2002</p>
+  <p class="facts" id="colour">Favourite colour: None</p>
+  
+  <button type="button">Post</button>
+  <div class="ui button">Better button</div>
+  
+
+  <div id="post1">
+    <h3>Post number 1</h3>
+    <p>This is my first post</p>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
+</body>
+</html>
